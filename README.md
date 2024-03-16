@@ -6,7 +6,7 @@ marp: true
 theme: gaia
 class:
  - invert
-headingDivider: 2 
+headingDivider: 2
 paginate: true
 -->
 
@@ -16,118 +16,173 @@ _class:
  - invert
 -->
 
-# Deploy Marp to GitHub Pages
+# フリーランスベストバイデバイス 2 選
 
-Presentations to Webpages: Instantly!
+2024 年 1Q 編
 
-## What?
+## 誰お前？
 
-[Marp](https://marp.app/) lets you create HTML slides from markdown (like this!).
+- 氏名: 大杉太郎
+- Twitter: @tarosg
+- 仕事: エンジニア，プログラミング講師
+- 技術: Laravel，JS，Deno，（Rust）
+- 好きなもの: 💻，📚，🥃，✈ 🚌 🚃，🚮
+- ジーズアカデミーに（たまに）います．
 
-This presentation is both a [website](https://alexsci.com/marp-to-pages) and a [README.md](https://github.com/ralexander-phi/marp-to-pages/blob/main/README.md).
+![bg right:33% width:180px alt text](./img/image.png)
 
-## Why?
+## 生態
 
-Treat your presentation the same way you treat code.
+- 仕事場が決まっていない．
 
-- Use git to track changes
-- Pull requests to collaborate
-- Deploy automatically
-- See a problem? Open an issue!
+  - 動ける & 集中できる．
 
-## Setup
+- 健康が大事（重要）．
 
-Want to create your own?
+  - 身体が売上に直結する．
 
-First, create a new repo [from the template repo](https://github.com/ralexander-phi/marp-to-pages).
+**作業環境と自己管理が問われるッ！**
 
-![](img/use-template.png)
+## 第 3 位
 
-## Configure GitHub Pages
-
-Open your new repo and [setup publishing](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
-
-You'll typically use `gh-pages` as the deploy branch.
-
-## Review Build
-
-Click on Actions tab and see if the build succeeded (it may take some time).
-
-![](img/click-actions.png)
-
-You should now see the generated files in the `gh-pages` branch.
-
-## View webpage
-
-Open your deployed webpage to see the content.
-
-Out of the box you should see `README.md` as `/index.html` and `/README.pdf`. Slides under `docs/` are also converted.
-
-## Running locally
-
-Locally you'll run commands like:
-
-```
-$ marp README.md -o build/README.pdf
-```
-
-or
-
-```
-$ npx @marp-team/marp-cli@latest README.md -o build/README.pdf
-```
-
-## As a workflow step
-
-The workflow runs an equivalent step:
-
-```
-- name: Marp Build (README.pdf)
-  uses: docker://marpteam/marp-cli:v1.7.0
-  with:
-    args: README.md -o build/README.pdf
-  env:
-    MARP_USER: root:root
-```
-
-Note the `args` match the previous slide.
-
-## Customizing the build
-
-Anything in the `build/` folder will be deployed to GitHub Pages.
-
-You can copy extra files or run further processing steps using other tools.
-
-## Learn more about Marp
-
-This is a good time to learn more about Marp. Here's some resources:
-
-- [CommonMark](https://commonmark.org/)
-- [Cheat Sheet](https://commonmark.org/help/)
-- [Themes](https://github.com/marp-team/marp-core/tree/master/themes)
-- [CSS Themes](https://marpit.marp.app/theme-css)
-- [Directives](https://marpit.marp.app/directives)
-- [VS Code plugin](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
-
-## Example Sites
-
-Known sites using this action are:
-
-- [University of Illinois at Urbana-Champaign's CS 199 Even More Practice](https://cs199emp.netlify.app/) [(code)](https://github.com/harsh183/emp-125)
-- [Exploring agent based models](https://roiarthurb.github.io/Talk-UMMISCO_06-07-2020/) [(code)](https://github.com/RoiArthurB/Talk-UMMISCO_06-07-2020)
-
-Send a [pull request](https://github.com/ralexander-phi/marp-to-pages) to get your site added.
-
-## Publish your slides
-
-When you are ready to share your presentation, commit or merge to `main` and your content on GitHub Pages will automatically update.
-
-# 🎉
 <!--
 _class:
  - lead
  - invert
 -->
-### Hooray!
 
+## 薄型 AC 電源（45W）
 
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+##
+
+![w:750 alt text bg](./img/ad-adapter.jpg)
+
+## 第 3 位 薄型 AC 電源（45W）
+
+**CIO NovaPort SLIM 45W**
+
+- タイプ C が 2 つ．
+
+  - MBA（M2）と iPhone を同時に充電できる．
+
+- 薄い（13mm）．
+
+  - ケーブル含めてもとても収まりが良い．
+
+## 第 2 位
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+## ノイズキャンセリングヘッドホン
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+##
+
+![w:750 alt text bg](./img/PX7-S2.png)
+
+## 集中するためのエネルギーを減らすデバイス
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+## 第 2 位 ノイズキャンセリングヘッドホン
+
+**Bowers & Wilkins Px7S2E**
+
+- ノイキャン
+
+  - 家でも意外とうるさい．エアコン，冷蔵庫，車の走行音など．
+
+- ヘッドホン
+
+  - 耳が物理的に痛まない．
+
+## 第 1 位
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+## 可変式ダンベル
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+##
+
+![w:750 alt text bg](./img/nuobell.jpg)
+
+## 毎日筋肉痛になれるデバイス
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+## 第 1 位 可変式ダンベル
+
+**FLEXBELL 32kg 2kg 刻み**
+
+- 重さを変えられる．
+
+  - 体力に合わせて調整できる．
+
+  - 場所を取らない．
+
+- バーベルよりも不安定．
+
+  - 左右差に気づける．
+
+  - 体幹を鍛えられる．
+
+## 第 1 位 可変式ダンベル
+
+- 10kg くらいのダンベルは物足りなくなる．
+
+- 高いダンベルのほうがもとを取ろうとして頻繁に使う．
+
+## まとめ
+
+**フリーランスは環境と身体に気を配ろう！**
+
+- 第 3 位：CIO NovaPort SLIM 45W
+
+- 第 2 位：Bowers & Wilkins Px7S2E
+
+- 第 1 位：FLEXBELL 32kg 2kg 刻み
+
+# 🥃
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
+### Thanks!
+
+![width:180px alt text](./img/image.png)
