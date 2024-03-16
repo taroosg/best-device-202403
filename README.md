@@ -63,6 +63,14 @@ _class:
 
 ![w:750 alt text bg](./img/ad-adapter.jpg)
 
+## 持ち物を薄くするデバイス
+
+<!--
+_class:
+ - lead
+ - invert
+-->
+
 ## 第 3 位 薄型 AC 電源（45W）
 
 **CIO NovaPort SLIM 45W**
